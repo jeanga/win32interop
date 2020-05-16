@@ -1,0 +1,17 @@
+[package]
+name = "win32interop"
+version = "0.1.0"
+authors = ["Jean Gautier <jean.gautier@ssi.gouv.fr>"]
+edition = "2018"
+description = "How to call Win32 APIs from Rust"
+
+[dependencies]
+log = "0.4.8"
+os_info = "2.0.5"
+
+[dev-dependencies]
+tempfile = "3.1.0"
+
+[[bin]]
+name = "win32interop"
+path = "src/main.rs"
